@@ -1,0 +1,136 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+#import "JSONKit.h"
+#import "GJCFUitils.h"
+#import "MOTUserDataManager.h"
+//#import "LCPanNavigationController.h"
+#import "IANActivityIndicatorButton.h"
+#import "UIButton+IANActivityView.h"
+#import "XHFriendlyLoadingView.h"
+#import "MLEmojiLabel.h"
+#import "Reachability.h"
+#import "Masonry.h"
+#import "SVProgressHUD.h"
+#import "MBProgressHUD.h"
+#import "UIView+Toast.h"
+#import "MJRefresh.h"
+#import "UIView+Hierarchy.h"
+#import "ParserUtil.h"
+#import "MMPopupItem.h"
+#import "MMAlertView.h"
+#import "MMSheetView.h"
+#import "MMPopupWindow.h"
+#import "defineNSNotificationCenterHeader.h"
+#import "SDCycleScrollView.h"
+#import "XLForm.h"
+#import "AFCustomClient.h"
+#import "AFAppDotNetAPIClient.h"
+#import "LYHTTPClient.h"
+#import "CachesDirectory.h"
+#import "ContactsDao.h"
+#import "Contact.h"
+#import "MJExtension.h"
+#import "DBHelper.h"
+#import "JSDropDownMenu.h"
+#import "DOPScrollableActionSheet.h"
+#import "BzwPicker.h"
+#import "DatePickerView.h"
+#import "UIImageView+EMWebCache.h"
+#import "WZLBadgeImport.h"//红点
+#import "WBPopMenuModel.h"
+#import "WBPopMenuSingleton.h"
+
+#import "DJYXIBTableViewCell.h"
+
+
+//#import "ChatDemoUIDefine.h"
+#import "EMAlertView.h"
+#import "TTGlobalUICommon.h"
+#import "UIViewController+DismissKeyboard.h"
+#import "NSString+Valid.h"
+#import "EaseUI.h"
+#import "EaseMob.h"
+
+
+#import <ShareSDK/ShareSDK.h>
+#import <ShareSDKConnector/ShareSDKConnector.h>
+//腾讯开放平台（对应QQ和QQ空间）SDK头文件
+#import <TencentOpenAPI/TencentOAuth.h>
+#import <TencentOpenAPI/QQApiInterface.h>
+//微信SDK头文件
+#import "WXApi.h"
+
+#endif
+
+
+#define UIColorDJYUNSelectedThemecolors16X 0xC1C1C1
+#define UIColorDJYSelectedThemecolors16X 0x18B84A
+#define UIColorDJYUNThemecolorsRGB [UIColor colorWithRed:150.0/255.0 green:150.0/255.0 blue:150.0/255.0 alpha:1]
+#define UIColorDJYThemecolorsRGB [UIColor colorWithRed:24.0/255.0 green:184.0/255.0 blue:74.0/255.0 alpha:1]
+
+#define MINFOLATInSection 0.0001f
+#define HeightForHeaderInSection 20.f
+#define HeightForRowInSection 48.f
+#define StateHighlightedWhiteButton 0xEFEDE7
+#define PageSizeTableView @"10"
+#define PageSizeTableView2 @"5"
+
+//饼图默认的颜色
+#define ChartColor0 0xC23E47
+#define ChartColor1 0x5185DC
+#define ChartColor2 0xC94A9C
+
+#define TextDefault0 0x444444
+#define TextDefault1 0x555555
+#define TextDefault2 0x666666
+#define TextDefault3 0x777777
+#define TextDefault4 0x888888
+#define TextDefault5 0x999999
+
+#define SVShowWithStatusStringType1   @"数据加载中..."
+#define SVShowWithStatusStringType2   @"正在提交数据..."
+#define SVShowWithBaseHQAllertViewString   @"暂未开通，敬请期待！"
+
+
+#define TextFontOfSizDefault [UIFont systemFontOfSize:16]
+#define TextFontOfSiz15 [UIFont systemFontOfSize:15]
+#define TextFontOfSiz14 [UIFont systemFontOfSize:14]
+#define TextFontOfSiz13 [UIFont systemFontOfSize:13]
+#define TextFontOfSiz12 [UIFont systemFontOfSize:12]
+#define TextFontOfSiz11 [UIFont systemFontOfSize:11]
+#define TextFontOfSiz10 [UIFont systemFontOfSize:10]
+
+//公用功能：数据字典加载
+#define BUSINO_QUERY_MOBILE_DICT_UTIL   @"mobileappbase.MobileDictUtil"
+#define DJY_City_data   @"DYJ_City_data.txt"
+#define DJY_headimage_data   @"DJY_headimage_data"
+
+#define Windows_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#define Windows_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+#define iOS7 ([[UIDevice currentDevice].systemVersion doubleValue] >= 7.0)
+//颜色转换
+#define RGBColor(r, g, b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0]
+#define RGBAColor(r, g, b, a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+//16进制颜色转RGB
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+#define UIColorFromRGBA(rgbValue,alp) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:alp]
+#define IS_IPHONE_5 ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )568 ) < DBL_EPSILON )
+#define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+
+#define MJRandomData [NSString stringWithFormat:@"随机数据---%d", arc4random_uniform(1000000)]
+

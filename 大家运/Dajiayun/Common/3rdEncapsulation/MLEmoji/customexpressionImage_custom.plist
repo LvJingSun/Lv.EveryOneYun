@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>[公司]</key>
+	<string>icon_company</string>
+	<key>[个人]</key>
+	<string>icon_peason_20x20</string>
+	<key>[详情]</key>
+	<string>icon_xiangqing</string>
+	<key>[推荐]</key>
+	<string>icon_tuijian_16x16</string>
+	<key>[向下]</key>
+	<string>icon_xiala_30x30</string>
+	<key>[向上]</key>
+	<string>icon_shang_30x30</string>
+</dict>
+</plist>

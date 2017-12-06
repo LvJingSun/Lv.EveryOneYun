@@ -1,0 +1,5 @@
+platform :ios, '7.0'
+pod 'EaseMobSDKFull', '~> 2.2.5.1'
+pod 'YYCache'
+
+pod 'LBXScan',git:'https://github.com/MxABC/LBXScan.git'

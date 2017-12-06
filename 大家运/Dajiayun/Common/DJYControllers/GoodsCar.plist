@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>昂克赛拉两厢</string>
+		<key>price</key>
+		<string>苏E 18888</string>
+		<key>pic</key>
+		<string>ang1.jpg</string>
+		<key>time</key>
+		<string>3年</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>昂克赛拉三厢</string>
+		<key>price</key>
+		<string>苏F J5888</string>
+		<key>pic</key>
+		<string>ang2.jpg</string>
+		<key>time</key>
+		<string>5年</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>思域</string>
+		<key>price</key>
+		<string>京A H7788</string>
+		<key>pic</key>
+		<string>si.jpg</string>
+		<key>time</key>
+		<string>5年</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>本田XR-V</string>
+		<key>price</key>
+		<string>沪A 88888</string>
+		<key>pic</key>
+		<string>xrv.jpg</string>
+		<key>time</key>
+		<string>6年</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>本田CR-V</string>
+		<key>price</key>
+		<string>苏A 99999</string>
+		<key>pic</key>
+		<string>crv.jpg</string>
+		<key>time</key>
+		<string>2年</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>领动</string>
+		<key>price</key>
+		<string>苏L J1888</string>
+		<key>pic</key>
+		<string>lingdong.jpg</string>
+		<key>time</key>
+		<string>1年</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>名图</string>
+		<key>price</key>
+		<string>苏B H9999</string>
+		<key>pic</key>
+		<string>mingtu.jpg</string>
+		<key>time</key>
+		<string>3年</string>
+	</dict>
+</array>
+</plist>

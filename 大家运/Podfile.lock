@@ -1,0 +1,30 @@
+PODS:
+  - EaseMobSDKFull (2.2.5.1)
+  - LBXScan (1.1.1):
+    - ZXingObjC (~> 3.0)
+  - YYCache (0.9.5)
+  - ZXingObjC (3.1.0):
+    - ZXingObjC/All (= 3.1.0)
+  - ZXingObjC/All (3.1.0)
+
+DEPENDENCIES:
+  - EaseMobSDKFull (~> 2.2.5.1)
+  - LBXScan (from `https://github.com/MxABC/LBXScan.git`)
+  - YYCache
+
+EXTERNAL SOURCES:
+  LBXScan:
+    :git: https://github.com/MxABC/LBXScan.git
+
+CHECKOUT OPTIONS:
+  LBXScan:
+    :commit: 1d6f9756b786856fd222a94ca1ed393297c2f500
+    :git: https://github.com/MxABC/LBXScan.git
+
+SPEC CHECKSUMS:
+  EaseMobSDKFull: 3c2df52237336183f57f6b56366c36abcc77cd3b
+  LBXScan: dfb4d8ae8e4cff2aa0c9e1771e43954dce1469a9
+  YYCache: 3ddcc49c387655f077c4e1b3708ed5ed71c79be2
+  ZXingObjC: bf15b3814f7a105b6d99f47da2333c93a063650a
+
+COCOAPODS: 0.39.0
